@@ -6,10 +6,11 @@ import {
     Route,
     Link
 } from 'react-router-dom';
+import Homepage from "./homePage";
 
-function Home() {
-    return <h1>Home</h1>
-}
+// function Home() {
+//     return <h1>Home</h1>
+// }
 
 function About() {
     return <h1>About</h1>
@@ -64,7 +65,7 @@ function App() {
                     <Contact />
                 </Route>
                 <Route path='/'>
-                    <Home />
+                    <Homepage />
                 </Route>
             </Switch>
         </div>
