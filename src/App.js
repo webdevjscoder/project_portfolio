@@ -8,6 +8,8 @@ import {
 } from 'react-router-dom';
 import Homepage from "./homePage";
 import About from "./about";
+import Work from "./work";
+import Blog from "./blog";
 
 // function Home() {
 //     return <h1>Home</h1>
@@ -17,13 +19,13 @@ import About from "./about";
 //     return <h1>About</h1>
 // }
 
-function Work() {
-    return <h1>Work</h1>
-}
+// function Work() {
+//     return <h1>Work</h1>
+// }
 
-function Blog() {
-    return <h1>Blog</h1>
-}
+// function Blog() {
+//     return <h1>Blog</h1>
+// }
 
 function Contact() {
     return <h1>Contact</h1>
