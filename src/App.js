@@ -7,14 +7,15 @@ import {
     Link
 } from 'react-router-dom';
 import Homepage from "./homePage";
+import About from "./about";
 
 // function Home() {
 //     return <h1>Home</h1>
 // }
 
-function About() {
-    return <h1>About</h1>
-}
+// function About() {
+//     return <h1>About</h1>
+// }
 
 function Work() {
     return <h1>Work</h1>

@@ -8,7 +8,8 @@ function Homepage() {
 
             <h1>Software Engineer.</h1>
 
-            <p>An ex sub contractor turned web developer. Living my best dream,
+            <p>
+                An ex sub contractor turned web developer. Living my best dream,
                 solving complex problems and breaking code!
             </p>
             <br />
