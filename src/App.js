@@ -3,38 +3,22 @@ import './App.css';
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
 } from 'react-router-dom';
-import Homepage from "./homePage";
-import About from "./about";
-import Work from "./work";
-import Blog from "./blog";
-import Contact from "./contact";
+import Homepage from "./components/home/Homepage";
+import About from "./components/about/About";
+import Work from "./components/work/Work";
+import Blog from "./components/blog/Blog";
+import Contact from "./components/contact/Contact";
+import Burger from "./components/burger/Burger";
 
 function App() {
   return (
     <Router>
-        <div>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to='/'>Home</Link>
-                    </li>
-                    <li>
-                        <Link to='/about'>About</Link>
-                    </li>
-                    <li>
-                        <Link to='/work'>Work</Link>
-                    </li>
-                    <li>
-                        <Link to='/blog'>Blog</Link>
-                    </li>
-                    <li>
-                        <Link to='/contact'>Contact</Link>
-                    </li>
-                </ul>
-            </nav>
+        <div className='app-background-image'>
+            <header>
+                <Burger />
+            </header>
             <Switch>
                 <Route path='/about'>
                     <About />
