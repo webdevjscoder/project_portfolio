@@ -1,13 +1,16 @@
-html, body {
+html {
     box-sizing: content-box;
     color: #fff;
     width: 100%;
     background-color: #000;
-    position: relative;
-    z-index: 1;
     background-image: url("./images/background-image-xs.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+body {
+    font-family: Ariel, sans-serif;
 }
 
 a, ul {
@@ -16,43 +19,8 @@ a, ul {
     text-decoration: none;
 }
 
-header {
-    border: 1px solid red;
-    width: 100%;
-    height: auto;
-    margin: 0;
-}
-
 .navbar ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
 }
-
-/*@media only screen and (min-width: 320px) and (max-width: 568px){*/
-/*    .app-background-image {*/
-/*        background-image: url("./images/background-image-xs.jpg");*/
-/*        background-repeat: no-repeat;*/
-/*        background-size: cover;*/
-/*    }*/
-
-/*    header {*/
-/*        !*position: fixed;*!*/
-/*        !*z-index: 2;*!*/
-/*        !*background-color: #000;*!*/
-/*        height: 100%;*/
-/*        width: 100%;*/
-/*    }*/
-
-/*    .navbar ul {*/
-/*        flex-flow: column nowrap;*/
-/*        text-align: center;*/
-/*        padding: 0;*/
-/*        font-size: 24px;*/
-/*    }*/
-
-/*    .navbar ul li {*/
-/*        !*margin: 10px;*!*/
-/*        !*padding: 20px;*!*/
-/*    }*/
-/*}*/
