@@ -1,0 +1,39 @@
+@media screen and (max-width: 767px) {
+    .homepage-container {
+        padding: 100px 20px 60px;
+    }
+
+    .homepage-container h2 {
+        margin-top: 0;
+        line-height: 1.1;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    .homepage-container h1 {
+        font-size: 64px;
+        line-height: 1.0;
+        font-weight: 600;
+        letter-spacing: -.01em;
+        text-transform: none;
+    }
+
+    .homepage-pg-content p {
+        font-size: 18px;
+        margin: 0;
+        line-height: 24px;
+        color: #f4f4f4;
+    }
+
+    .learn-more-link {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 30px;
+        letter-spacing: .01em;
+        font-weight: 400;
+    }
+
+    .learn-more-link a {
+        color: #F17C1C;
+    }
+}
