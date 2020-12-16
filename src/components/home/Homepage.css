@@ -40,7 +40,44 @@
 
 @media only screen and (min-width: 481px)
 and (max-width: 767px){
+    .homepage-container {
+        padding: 120px 192px 80px 50px;
+    }
 
+    .homepage-container h2 {
+        margin-top: 0;
+        line-height: 1.1;
+        font-weight: 400;
+        font-size: 28px;
+        letter-spacing: .01em;
+    }
+
+    .homepage-container h1 {
+        font-size: 64px;
+        line-height: 1.0;
+        font-weight: 600;
+        letter-spacing: -.01em;
+        text-transform: none;
+    }
+
+    .homepage-pg-content p {
+        font-size: 18px;
+        margin: 20px 0;
+        line-height: 24px;
+        color: #f4f4f4;
+    }
+
+    .learn-more-link {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 30px;
+        letter-spacing: .01em;
+        font-weight: 400;
+    }
+
+    .learn-more-link a {
+        color: #F17C1C;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px)
@@ -129,9 +166,83 @@ and (max-width: 1024px) {
 
 @media (min-width: 1025px)
 and (max-width: 1280px) {
+    .homepage-container {
+        padding: 120px 234px 80px 50px;
+    }
 
+    .homepage-container h2 {
+        margin-top: 0;
+        line-height: 1.1;
+        font-weight: 400;
+        font-size: 28px;
+        letter-spacing: .01em;
+    }
+
+    .homepage-container h1 {
+        font-size: 64px;
+        line-height: 1.0;
+        font-weight: 600;
+        letter-spacing: -.01em;
+        text-transform: none;
+    }
+
+    .homepage-pg-content p {
+        font-size: 21px;
+        margin: 20px 0;
+        line-height: 24px;
+        color: #f4f4f4;
+    }
+
+    .learn-more-link {
+        font-size: 21px;
+        line-height: 24px;
+        margin-top: 30px;
+        letter-spacing: .01em;
+        font-weight: 400;
+    }
+
+    .learn-more-link a {
+        color: #F17C1C;
+    }
 }
 
 @media (min-width: 1281px) {
+    .homepage-container {
+        padding: 120px 234px 80px 50px;
+    }
 
+    .homepage-container h2 {
+        margin-top: 0;
+        line-height: 1.1;
+        font-weight: 400;
+        font-size: 28px;
+        letter-spacing: .01em;
+    }
+
+    .homepage-container h1 {
+        font-size: 64px;
+        line-height: 1.0;
+        font-weight: 600;
+        letter-spacing: -.01em;
+        text-transform: none;
+    }
+
+    .homepage-pg-content p {
+        font-size: 21px;
+        margin: 20px 0;
+        line-height: 24px;
+        color: #f4f4f4;
+    }
+
+    .learn-more-link {
+        font-size: 21px;
+        line-height: 24px;
+        margin-top: 30px;
+        letter-spacing: .01em;
+        font-weight: 400;
+    }
+
+    .learn-more-link a {
+        color: #F17C1C;
+    }
 }
