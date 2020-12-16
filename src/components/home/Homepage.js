@@ -13,11 +13,9 @@ function Homepage() {
                     An ex sub contractor turned web developer. Living my best dream,
                     solving complex problems and breaking code!
                 </p>
-                <br />
                 <p>
                     Problem solving and managing projects runs in my blood.
                 </p>
-                <br />
                 <p>
                     Always laughing in real life. &#128541;
                 </p>
