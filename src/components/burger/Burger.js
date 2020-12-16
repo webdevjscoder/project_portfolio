@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import BurgerNavbar from "./BurgerNavbar";
+import Navbar from "../navbar/Navbar";
 
 const StyledBurger = styled.div`
   width: 2rem;
@@ -51,7 +51,7 @@ const Burger = () => {
                 <div />
                 <div />
             </StyledBurger>
-            <BurgerNavbar open={open} setOpen={setOpen} />
+            <Navbar open={open} setOpen={setOpen} />
         </>
     )
 }
