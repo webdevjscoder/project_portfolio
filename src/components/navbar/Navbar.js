@@ -6,12 +6,13 @@ const Ul = styled.ul`
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
+    //background-color: #141414;
 
     li {
       padding: 18px 10px;
     }
     
-    @media screen and (min-device-width: 280px)
+    @media (max-width: 480px)
      and (max-device-width: 640px) {
       flex-flow: column nowrap;
       background-color: #000;
@@ -25,18 +26,24 @@ const Ul = styled.ul`
       transition: transform 0.3s ease-in-out;
       text-align: center;
       font-size: 24px;
-      
+  
       li {
         color: #fff;
       }
     }
     
-    @media screen and (min-device-width: 768px)
-     and (max-device-width: 1280px) {
-        margin: 0;
+    @media (min-device-width: 481px)
+     and (max-device-width: 767px) {
+    //    work in progress
+    }
+    
+    @media (min-width: 768px)
+    and (max-device-width: 1024px) {
+      margin: 0;
         padding: 0 0 0 50px;
         font-size: 20px;
         font-weight: 400;
+        background-color: #141414;
       
       li {
         padding: 25px 50px 18px 0;
@@ -44,7 +51,6 @@ const Ul = styled.ul`
      
       li:nth-child(5) {
           margin-left: auto;
-      }
     }
 `;
 
