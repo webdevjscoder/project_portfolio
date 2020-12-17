@@ -3,6 +3,18 @@
         padding: 100px 20px 60px;
     }
 
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(75%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
     .about-container h1 {
         margin-top: 0;
         font-size: 50px;
@@ -10,6 +22,11 @@
         font-weight: 600;
         letter-spacing: -.01em;
         text-transform: none;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .about-container p {
@@ -17,10 +34,20 @@
         margin: 20px 0;
         line-height: 24px;
         color: #f4f4f4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .about-container p a {
         color: #F17C1C;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -30,6 +57,18 @@ and (max-width: 767px){
         padding: 100px 20px 60px;
     }
 
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(75%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
     .about-container h1 {
         margin-top: 0;
         font-size: 50px;
@@ -37,6 +76,11 @@ and (max-width: 767px){
         font-weight: 600;
         letter-spacing: -.01em;
         text-transform: none;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .about-container p {
@@ -44,10 +88,20 @@ and (max-width: 767px){
         margin: 20px 0;
         line-height: 24px;
         color: #f4f4f4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .about-container p a {
         color: #F17C1C;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -57,6 +111,18 @@ and (orientation: landscape) {
         padding: 120px 196px 80px 50px;
     }
 
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(75%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
     .about-container h1 {
         margin-top: 0;
         font-size: 64px;
@@ -64,6 +130,11 @@ and (orientation: landscape) {
         font-weight: 600;
         letter-spacing: -.01em;
         text-transform: none;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .about-container p {
@@ -71,10 +142,20 @@ and (orientation: landscape) {
         margin: 20px 0;
         line-height: 24px;
         color: #f4f4f4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .about-container p a {
         color: #F17C1C;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -84,6 +165,18 @@ and (max-width: 1024px) {
         padding: 120px 196px 80px 50px;
     }
 
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(75%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
     .about-container h1 {
         margin-top: 0;
         font-size: 64px;
@@ -91,17 +184,32 @@ and (max-width: 1024px) {
         font-weight: 600;
         letter-spacing: -.01em;
         text-transform: none;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .about-container p {
         font-size: 20px;
         margin: 20px 0;
-        line-height: 24px;
+        line-height: 28px;
         color: #f4f4f4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .about-container p a {
         color: #F17C1C;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -111,6 +219,18 @@ and (max-width: 1280px) {
         padding: 120px 234px 80px 50px;
     }
 
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(75%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
     .about-container h1 {
         margin-top: 0;
         font-size: 64px;
@@ -118,17 +238,32 @@ and (max-width: 1280px) {
         font-weight: 600;
         letter-spacing: -.01em;
         text-transform: none;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .about-container p {
         font-size: 20px;
         margin: 20px 0;
-        line-height: 24px;
+        line-height: 28px;
         color: #f4f4f4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .about-container p a {
         color: #F17C1C;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -137,6 +272,18 @@ and (max-width: 1280px) {
         padding: 120px 234px 80px 50px;
     }
 
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(75%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
     .about-container h1 {
         margin-top: 0;
         font-size: 64px;
@@ -144,16 +291,31 @@ and (max-width: 1280px) {
         font-weight: 600;
         letter-spacing: -.01em;
         text-transform: none;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .about-container p {
         font-size: 20px;
         margin: 20px 0;
-        line-height: 24px;
+        line-height: 28px;
         color: #f4f4f4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .about-container p a {
         color: #F17C1C;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
