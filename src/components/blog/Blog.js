@@ -1,13 +1,13 @@
 import React from 'react';
+import './Blog.css';
 
 function Blog() {
     return (
-        <div>
-            <h1>Coming soon!</h1>
-            <br />
-            <h2>
-                In the meantime checkout my blogs <a href="http://www.webdevjscoder.com/">here</a>
-            </h2>
+        <div className='blog-container'>
+            <h1>Here lie my blogs. Coming soon.</h1>
+            <h3>
+                ...in the meantime checkout my blogs <a href="http://www.webdevjscoder.com/">here.</a>
+            </h3>
         </div>
     )
 }
