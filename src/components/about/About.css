@@ -20,7 +20,7 @@
     }
 
     .about-container p a {
-        color: #F17C1C
+        color: #F17C1C;
     }
 }
 
@@ -47,7 +47,7 @@ and (max-width: 767px){
     }
 
     .about-container p a {
-        color: #F17C1C
+        color: #F17C1C;
     }
 }
 
@@ -74,7 +74,7 @@ and (orientation: landscape) {
     }
 
     .about-container p a {
-        color: #F17C1C
+        color: #F17C1C;
     }
 }
 
@@ -101,7 +101,7 @@ and (max-width: 1024px) {
     }
 
     .about-container p a {
-        color: #F17C1C
+        color: #F17C1C;
     }
 }
 
@@ -128,7 +128,7 @@ and (max-width: 1280px) {
     }
 
     .about-container p a {
-        color: #F17C1C
+        color: #F17C1C;
     }
 }
 
@@ -154,6 +154,6 @@ and (max-width: 1280px) {
     }
 
     .about-container p a {
-        color: #F17C1C
+        color: #F17C1C;
     }
 }
