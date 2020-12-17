@@ -19,3 +19,20 @@ a, ul {
     list-style: none;
     text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #F17C1C;
+}
+
+.footer-container {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+    color: #F17C1C;
+    letter-spacing: .02em;
+    font-weight: 300;
+}
