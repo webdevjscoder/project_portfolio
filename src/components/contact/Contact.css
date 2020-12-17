@@ -3,14 +3,36 @@
         padding: 80px 20px 60px;
     }
 
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(10%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
     .contact-container h1 {
         font-size: 64px;
         font-weight: 600;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .contact-container p {
         color: #ccc;
         line-height: 1.4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .contact-container strong {
@@ -25,6 +47,11 @@
     .social-links a {
         color: #F17C1C;
         margin: 25px 25px 0 0;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -34,14 +61,36 @@ and (max-width: 767px){
         padding: 80px 20px 60px;
     }
 
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(10%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
     .contact-container h1 {
         font-size: 64px;
         font-weight: 600;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .contact-container p {
         color: #ccc;
         line-height: 1.4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .contact-container strong {
@@ -56,6 +105,11 @@ and (max-width: 767px){
     .social-links a {
         color: #F17C1C;
         margin: 25px 25px 0 0;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -65,14 +119,36 @@ and (orientation: landscape) {
         padding: 80px 20px 60px;
     }
 
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(10%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
     .contact-container h1 {
         font-size: 64px;
         font-weight: 600;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .contact-container p {
         color: #ccc;
         line-height: 1.4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .contact-container strong {
@@ -87,6 +163,11 @@ and (orientation: landscape) {
     .social-links a {
         color: #F17C1C;
         margin: 25px 25px 0 0;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -96,16 +177,38 @@ and (max-width: 1023px) {
         padding: 80px 190px 80px 50px;
     }
 
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(10%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
     .contact-container h1 {
         font-size: 64px;
         font-weight: 600;
         letter-spacing: .01em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .contact-container p {
         color: #ccc;
         line-height: 1.6;
         letter-spacing: .02em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .contact-container strong {
@@ -121,6 +224,11 @@ and (max-width: 1023px) {
         color: #F17C1C;
         margin: 25px 25px 0 0;
         letter-spacing: .02em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -130,16 +238,38 @@ and (max-width: 1280px) {
         padding: 80px 460px 80px 100px;
     }
 
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(10%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
     .contact-container h1 {
         font-size: 64px;
         font-weight: 600;
         letter-spacing: .01em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .contact-container p {
         color: #ccc;
         line-height: 1.6;
         letter-spacing: .02em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .contact-container strong {
@@ -155,6 +285,11 @@ and (max-width: 1280px) {
         color: #F17C1C;
         margin: 25px 25px 0 0;
         letter-spacing: .02em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -163,16 +298,38 @@ and (max-width: 1280px) {
         padding: 80px 460px 80px 100px;
     }
 
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(10%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
     .contact-container h1 {
         font-size: 64px;
         font-weight: 600;
         letter-spacing: .01em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .contact-container p {
         color: #ccc;
         line-height: 1.6;
         letter-spacing: .02em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .contact-container strong {
@@ -188,5 +345,10 @@ and (max-width: 1280px) {
         color: #F17C1C;
         margin: 25px 25px 0 0;
         letter-spacing: .02em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }

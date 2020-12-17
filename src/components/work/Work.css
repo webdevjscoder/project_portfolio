@@ -1,15 +1,16 @@
 @media (max-width: 480px) {
     .title {
         padding: 80px 20px 40px;
-        background-image: url("../../images/background-image-full.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
     }
 
     .title h1 {
         margin: 0;
         font-size: 45px;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .title p {
@@ -19,12 +20,34 @@
         font-size: 18px;
         line-height: 24px;
         font-weight: 300;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(10%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
     }
 
     /* Project 1 section */
     .project-1 {
         padding: 20px;
         background-color: #141e24;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-1 img {
@@ -57,6 +80,11 @@
     .project-2 {
         padding: 20px;
         background-color: #2f2f2f;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-2 img {
@@ -89,6 +117,11 @@
     .project-3 {
         padding: 20px;
         background-color: #07142d;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-3 img {
@@ -121,6 +154,11 @@
     .project-4 {
         padding: 20px;
         background-color: #211d1d;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-4 img {
@@ -153,6 +191,11 @@
     .project-5 {
         padding: 20px;
         background-color: #18011d;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-5 img {
@@ -186,15 +229,16 @@
 and (max-width: 767px){
     .title {
         padding: 80px 20px 40px;
-        background-image: url("../../images/background-image-full.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
     }
 
     .title h1 {
         margin: 0;
         font-size: 45px;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .title p {
@@ -204,12 +248,34 @@ and (max-width: 767px){
         font-size: 18px;
         line-height: 24px;
         font-weight: 300;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(10%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
     }
 
     /* Project 1 section */
     .project-1 {
         padding: 20px;
         background-color: #141e24;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-1 img {
@@ -242,6 +308,11 @@ and (max-width: 767px){
     .project-2 {
         padding: 20px;
         background-color: #2f2f2f;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-2 img {
@@ -274,6 +345,11 @@ and (max-width: 767px){
     .project-3 {
         padding: 20px;
         background-color: #07142d;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-3 img {
@@ -306,6 +382,11 @@ and (max-width: 767px){
     .project-4 {
         padding: 20px;
         background-color: #211d1d;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-4 img {
@@ -338,6 +419,11 @@ and (max-width: 767px){
     .project-5 {
         padding: 20px;
         background-color: #18011d;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-5 img {
@@ -371,15 +457,16 @@ and (max-width: 767px){
 and (orientation: landscape) {
     .title {
         padding: 80px 20px 40px;
-        background-image: url("../../images/background-image-full.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
     }
 
     .title h1 {
         margin: 0;
         font-size: 45px;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .title p {
@@ -389,12 +476,34 @@ and (orientation: landscape) {
         font-size: 18px;
         line-height: 24px;
         font-weight: 300;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(10%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
     }
 
     /* Project 1 section */
     .project-1 {
         padding: 20px;
         background-color: #141e24;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-1 img {
@@ -427,6 +536,11 @@ and (orientation: landscape) {
     .project-2 {
         padding: 20px;
         background-color: #2f2f2f;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-2 img {
@@ -459,6 +573,11 @@ and (orientation: landscape) {
     .project-3 {
         padding: 20px;
         background-color: #07142d;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-3 img {
@@ -491,6 +610,11 @@ and (orientation: landscape) {
     .project-4 {
         padding: 20px;
         background-color: #211d1d;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-4 img {
@@ -523,6 +647,11 @@ and (orientation: landscape) {
     .project-5 {
         padding: 20px;
         background-color: #18011d;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-5 img {
@@ -556,10 +685,6 @@ and (orientation: landscape) {
 and (max-width: 1023px) {
     .title {
         padding: 135px 192px 150px 50px;
-        background-image: url("../../images/background-image-full.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
     }
 
     .title h1 {
@@ -567,6 +692,11 @@ and (max-width: 1023px) {
         letter-spacing: .01em;
         line-height: 1.1;
         font-size: 64px;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .title p {
@@ -576,12 +706,34 @@ and (max-width: 1023px) {
         line-height: 24px;
         font-weight: 300;
         color: #ccc;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(10%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
     }
 
     /* Project 1 section */
     .project-1 {
         padding: 60px;
         background-color: #141e24;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-1 img {
@@ -616,6 +768,11 @@ and (max-width: 1023px) {
     .project-2 {
         padding: 60px;
         background-color: #2f2f2f;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-2 img {
@@ -650,6 +807,11 @@ and (max-width: 1023px) {
     .project-3 {
         padding: 60px;
         background-color: #07142d;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-3 img {
@@ -684,6 +846,11 @@ and (max-width: 1023px) {
     .project-4 {
         padding: 60px;
         background-color: #211d1d;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-4 img {
@@ -718,6 +885,11 @@ and (max-width: 1023px) {
     .project-5 {
         padding: 60px;
         background-color: #18011d;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-5 img {
@@ -753,10 +925,6 @@ and (max-width: 1023px) {
 and (max-width: 1280px) {
     .title {
         padding: 135px 192px 150px 50px;
-        background-image: url("../../images/background-image-full.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
     }
 
     .title h1 {
@@ -764,6 +932,11 @@ and (max-width: 1280px) {
         letter-spacing: .01em;
         line-height: 1.1;
         font-size: 64px;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .title p {
@@ -773,6 +946,23 @@ and (max-width: 1280px) {
         line-height: 24px;
         font-weight: 300;
         color: #ccc;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(10%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
     }
 
     /* Project 1 section */
@@ -780,6 +970,11 @@ and (max-width: 1280px) {
         padding: 100px;
         background-color: #141e24;
         display: flex;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-1-image {
@@ -826,6 +1021,11 @@ and (max-width: 1280px) {
         padding: 100px;
         background-color: #2f2f2f;
         display: flex;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-2-image {
@@ -872,6 +1072,11 @@ and (max-width: 1280px) {
         padding: 100px;
         background-color: #07142d;
         display: flex;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-3-image {
@@ -918,6 +1123,11 @@ and (max-width: 1280px) {
         padding: 100px;
         background-color: #211d1d;
         display: flex;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-4-image {
@@ -964,6 +1174,11 @@ and (max-width: 1280px) {
         padding: 100px;
         background-color: #18011d;
         display: flex;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-5-image {
@@ -1009,10 +1224,6 @@ and (max-width: 1280px) {
 @media (min-width: 1281px) {
     .title {
         padding: 135px 500px 150px 50px;
-        background-image: url("../../images/background-image-full.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
     }
 
     .title h1 {
@@ -1020,6 +1231,11 @@ and (max-width: 1280px) {
         letter-spacing: .01em;
         line-height: 1.1;
         font-size: 64px;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .title p {
@@ -1029,6 +1245,23 @@ and (max-width: 1280px) {
         line-height: 24px;
         font-weight: 300;
         color: #ccc;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(10%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
     }
 
     /* Project 1 section */
@@ -1036,6 +1269,11 @@ and (max-width: 1280px) {
         padding: 200px 300px;
         background-color: #141e24;
         display: flex;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-1-image {
@@ -1082,6 +1320,11 @@ and (max-width: 1280px) {
         padding: 200px 300px;
         background-color: #2f2f2f;
         display: flex;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-2-image {
@@ -1128,6 +1371,11 @@ and (max-width: 1280px) {
         padding: 200px 300px;
         background-color: #07142d;
         display: flex;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-3-image {
@@ -1174,6 +1422,11 @@ and (max-width: 1280px) {
         padding: 200px 300px;
         background-color: #211d1d;
         display: flex;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-4-image {
@@ -1220,6 +1473,11 @@ and (max-width: 1280px) {
         padding: 200px 300px;
         background-color: #18011d;
         display: flex;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .project-5-image {
