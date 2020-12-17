@@ -24,6 +24,7 @@ const Ul = styled.ul`
       transition: transform 0.3s ease-in-out;
       text-align: center;
       font-size: 24px;
+      margin-top: 0;
   
       li {
         color: #fff;
@@ -44,6 +45,7 @@ const Ul = styled.ul`
       transition: transform 0.3s ease-in-out;
       text-align: center;
       font-size: 24px;
+      margin-top: 0;
   
       li {
         color: #fff;
