@@ -103,26 +103,83 @@ const Ul = styled.ul`
     }
 `;
 
-function Navbar({ open, setOpen }) {
-    return (
-        <Ul open={open} onClick={() => setOpen(!open)}>
-            <li>
-                <Link to='/'>Home</Link>
-            </li>
-            <li>
-                <Link to='/about'>About</Link>
-            </li>
-            <li>
-                <Link to='/work'>Work</Link>
-            </li>
-            <li>
-                <Link to='/blog'>Blog</Link>
-            </li>
-            <li>
-                <Link to='/contact'>Contact</Link>
-            </li>
-        </Ul>
-    )
+class Navbar extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            color1: '#F17C1C',
+            color2: '',
+            color3: '',
+            color4: '',
+            color5: ''
+        }
+    }
+
+    handleClick = (e) => {
+        if (e.target.pathname === '/') {
+            this.setState({
+                color1: '#F17C1C',
+                color2: '',
+                color3: '',
+                color4: '',
+                color5: ''
+            })
+        } else if (e.target.pathname === '/about') {
+            this.setState({
+                color1: '',
+                color2: '#F17C1C',
+                color3: '',
+                color4: '',
+                color5: ''
+            })
+        } else if (e.target.pathname === '/work') {
+            this.setState({
+                color1: '',
+                color2: '',
+                color3: '#F17C1C',
+                color4: '',
+                color5: ''
+            })
+        } else if (e.target.pathname === '/blog') {
+            this.setState({
+                color1: '',
+                color2: '',
+                color3: '',
+                color4: '#F17C1C',
+                color5: ''
+            })
+        } else if (e.target.pathname === '/contact') {
+            this.setState({
+                color1: '',
+                color2: '',
+                color3: '',
+                color4: '',
+                color5: '#F17C1C'
+            })
+        }
+    }
+
+    render() {
+        return (
+            <Ul open={this.props.open} onClick={() => this.props.setOpen(!this.props.open)}>
+                <li>
+                    <Link to='/' style={{color: this.state.color1}} onClick={this.handleClick}>Home</Link>
+                </li>
+                <li>
+                    <Link to='/about' style={{color: this.state.color2}} onClick={this.handleClick}>About</Link>
+                </li>
+                <li>
+                    <Link to='/work' style={{color: this.state.color3}} onClick={this.handleClick}>Work</Link>
+                </li>
+                <li>
+                    <Link to='/blog' style={{color: this.state.color4}} onClick={this.handleClick}>Blog</Link>
+                </li>
+                <li>
+                    <Link to='/contact' style={{color: this.state.color5}} onClick={this.handleClick}>Contact</Link>
+                </li>
+            </Ul>
+        )
+    }
 }
 
 export default Navbar;

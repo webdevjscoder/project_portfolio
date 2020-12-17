@@ -8,6 +8,23 @@
         line-height: 1.1;
         font-weight: 400;
         font-size: 28px;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(75%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
     }
 
     .homepage-container h1 {
@@ -16,6 +33,11 @@
         font-weight: 600;
         letter-spacing: -.01em;
         text-transform: none;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .homepage-pg-content p {
@@ -23,6 +45,11 @@
         margin: 20px 0;
         line-height: 24px;
         color: #f4f4f4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .learn-more-link {
@@ -34,7 +61,12 @@
     }
 
     .learn-more-link a {
-        color: #F17C1C
+        color: #F17C1C;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -50,6 +82,23 @@ and (max-width: 767px){
         font-weight: 400;
         font-size: 28px;
         letter-spacing: .01em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(75%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
     }
 
     .homepage-container h1 {
@@ -58,6 +107,11 @@ and (max-width: 767px){
         font-weight: 600;
         letter-spacing: -.01em;
         text-transform: none;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .homepage-pg-content p {
@@ -65,6 +119,11 @@ and (max-width: 767px){
         margin: 20px 0;
         line-height: 24px;
         color: #f4f4f4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .learn-more-link {
@@ -77,6 +136,11 @@ and (max-width: 767px){
 
     .learn-more-link a {
         color: #F17C1C;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -92,6 +156,23 @@ and (orientation: landscape) {
         font-weight: 400;
         font-size: 28px;
         letter-spacing: .01em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(75%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
     }
 
     .homepage-container h1 {
@@ -100,6 +181,11 @@ and (orientation: landscape) {
         font-weight: 600;
         letter-spacing: -.01em;
         text-transform: none;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .homepage-pg-content p {
@@ -107,6 +193,11 @@ and (orientation: landscape) {
         margin: 20px 0;
         line-height: 24px;
         color: #f4f4f4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .learn-more-link {
@@ -119,6 +210,11 @@ and (orientation: landscape) {
 
     .learn-more-link a {
         color: #F17C1C;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -134,6 +230,23 @@ and (max-width: 1024px) {
         font-weight: 400;
         font-size: 28px;
         letter-spacing: .01em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(75%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
     }
 
     .homepage-container h1 {
@@ -142,6 +255,11 @@ and (max-width: 1024px) {
         font-weight: 600;
         letter-spacing: -.01em;
         text-transform: none;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .homepage-pg-content p {
@@ -149,6 +267,11 @@ and (max-width: 1024px) {
         margin: 20px 0;
         line-height: 24px;
         color: #f4f4f4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .learn-more-link {
@@ -161,6 +284,11 @@ and (max-width: 1024px) {
 
     .learn-more-link a {
         color: #F17C1C;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -176,6 +304,23 @@ and (max-width: 1280px) {
         font-weight: 400;
         font-size: 28px;
         letter-spacing: .01em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(75%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
     }
 
     .homepage-container h1 {
@@ -184,6 +329,11 @@ and (max-width: 1280px) {
         font-weight: 600;
         letter-spacing: -.01em;
         text-transform: none;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .homepage-pg-content p {
@@ -191,6 +341,11 @@ and (max-width: 1280px) {
         margin: 30px 0;
         line-height: 24px;
         color: #f4f4f4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .learn-more-link {
@@ -203,6 +358,11 @@ and (max-width: 1280px) {
 
     .learn-more-link a {
         color: #F17C1C;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
 
@@ -217,6 +377,23 @@ and (max-width: 1280px) {
         font-weight: 400;
         font-size: 28px;
         letter-spacing: .01em;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+            transform: translateY(75%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
     }
 
     .homepage-container h1 {
@@ -225,6 +402,11 @@ and (max-width: 1280px) {
         font-weight: 600;
         letter-spacing: -.01em;
         text-transform: none;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .homepage-pg-content p {
@@ -232,6 +414,11 @@ and (max-width: 1280px) {
         margin: 30px 0;
         line-height: 24px;
         color: #f4f4f4;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .learn-more-link {
@@ -240,9 +427,19 @@ and (max-width: 1280px) {
         margin-top: 30px;
         letter-spacing: .01em;
         font-weight: 400;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 
     .learn-more-link a {
         color: #F17C1C;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1.5s;
     }
 }
