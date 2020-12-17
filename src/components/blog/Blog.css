@@ -251,6 +251,11 @@ and (max-width: 1280px) {
         animation-timing-function: ease-in;
         animation-duration: 1.5s;
     }
+
+    .blog-container a:hover {
+        text-decoration: underline;
+        text-decoration-color: #F17C1C;
+    }
 }
 
 @media (min-width: 1281px) {
@@ -301,5 +306,10 @@ and (max-width: 1280px) {
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
         animation-duration: 1.5s;
+    }
+
+    .blog-container a:hover {
+        text-decoration: underline;
+        text-decoration-color: #F17C1C;
     }
 }

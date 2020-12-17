@@ -1,4 +1,8 @@
 @media (max-width: 480px) {
+    .work-container {
+        margin-bottom: 50px;
+    }
+
     .title {
         padding: 80px 20px 40px;
     }
@@ -227,6 +231,10 @@
 
 @media only screen and (min-width: 481px)
 and (max-width: 767px){
+    .work-container {
+        margin-bottom: 50px;
+    }
+
     .title {
         padding: 80px 20px 40px;
     }
@@ -455,6 +463,10 @@ and (max-width: 767px){
 
 @media (min-width: 768px) and (max-width: 1024px)
 and (orientation: landscape) {
+    .work-container {
+        margin-bottom: 50px;
+    }
+
     .title {
         padding: 80px 20px 40px;
     }
@@ -683,6 +695,10 @@ and (orientation: landscape) {
 
 @media (min-width: 768px)
 and (max-width: 1023px) {
+    .work-container {
+        margin-bottom: 50px;
+    }
+
     .title {
         padding: 135px 192px 150px 50px;
     }
@@ -1016,6 +1032,11 @@ and (max-width: 1280px) {
         font-size: 20px;
     }
 
+    .project-1-info a:hover {
+        text-decoration: underline;
+        text-decoration-color: #F17C1C;
+    }
+
     /* Project 2 section */
     .project-2 {
         padding: 100px;
@@ -1065,6 +1086,11 @@ and (max-width: 1280px) {
         color: #F17C1C;
         font-weight: 300;
         font-size: 20px;
+    }
+
+    .project-2-info a:hover {
+        text-decoration: underline;
+        text-decoration-color: #F17C1C;
     }
 
     /* Project 3 section */
@@ -1118,6 +1144,11 @@ and (max-width: 1280px) {
         font-size: 20px;
     }
 
+    .project-3-info a:hover {
+        text-decoration: underline;
+        text-decoration-color: #F17C1C;
+    }
+
     /* Project 4 section */
     .project-4 {
         padding: 100px;
@@ -1169,6 +1200,11 @@ and (max-width: 1280px) {
         font-size: 20px;
     }
 
+    .project-4-info a:hover {
+        text-decoration: underline;
+        text-decoration-color: #F17C1C;
+    }
+
     /* Project 5 section */
     .project-5 {
         padding: 100px;
@@ -1218,6 +1254,11 @@ and (max-width: 1280px) {
         color: #F17C1C;
         font-weight: 300;
         font-size: 20px;
+    }
+
+    .project-5-info a:hover {
+        text-decoration: underline;
+        text-decoration-color: #F17C1C;
     }
 }
 
@@ -1310,6 +1351,11 @@ and (max-width: 1280px) {
         font-size: 20px;
     }
 
+    .project-1-info a:hover {
+        text-decoration: underline;
+        text-decoration-color: #F17C1C;
+    }
+
     .project-1 img {
         width: 100%;
         height: 100%;
@@ -1359,6 +1405,11 @@ and (max-width: 1280px) {
         color: #F17C1C;
         font-weight: 300;
         font-size: 20px;
+    }
+
+    .project-2-info a:hover {
+        text-decoration: underline;
+        text-decoration-color: #F17C1C;
     }
 
     .project-2 img {
@@ -1412,6 +1463,11 @@ and (max-width: 1280px) {
         font-size: 20px;
     }
 
+    .project-3-info a:hover {
+        text-decoration: underline;
+        text-decoration-color: #F17C1C;
+    }
+
     .project-3 img {
         width: 100%;
         height: 100%;
@@ -1463,6 +1519,11 @@ and (max-width: 1280px) {
         font-size: 20px;
     }
 
+    .project-4-info a:hover {
+        text-decoration: underline;
+        text-decoration-color: #F17C1C;
+    }
+
     .project-4 img {
         width: 100%;
         height: 100%;
@@ -1512,6 +1573,11 @@ and (max-width: 1280px) {
         color: #F17C1C;
         font-weight: 300;
         font-size: 20px;
+    }
+
+    .project-5-info a:hover {
+        text-decoration: underline;
+        text-decoration-color: #F17C1C;
     }
 
     .project-5 img {
