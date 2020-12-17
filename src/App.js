@@ -11,6 +11,7 @@ import Work from "./components/work/Work";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Burger from "./components/burger/Burger";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
                 </Route>
             </Switch>
         </div>
+        <Footer />
     </Router>
   );
 }
