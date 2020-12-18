@@ -111,7 +111,51 @@ class Navbar extends React.Component {
             color2: '',
             color3: '',
             color4: '',
-            color5: ''
+            color5: '',
+        }
+    }
+
+    componentDidMount() {
+        if (window.location.pathname === '/') {
+            this.setState({
+                color1: '#F17C1C',
+                color2: '',
+                color3: '',
+                color4: '',
+                color5: ''
+            })
+        } else if (window.location.pathname === '/about') {
+            this.setState({
+                color1: '',
+                color2: '#F17C1C',
+                color3: '',
+                color4: '',
+                color5: ''
+            })
+        } else if (window.location.pathname === '/work') {
+            this.setState({
+                color1: '',
+                color2: '',
+                color3: '#F17C1C',
+                color4: '',
+                color5: ''
+            })
+        } else if (window.location.pathname === '/blog') {
+            this.setState({
+                color1: '',
+                color2: '',
+                color3: '',
+                color4: '#F17C1C',
+                color5: ''
+            })
+        } else if (window.location.pathname === '/contact') {
+            this.setState({
+                color1: '',
+                color2: '',
+                color3: '',
+                color4: '',
+                color5: '#F17C1C'
+            })
         }
     }
 
