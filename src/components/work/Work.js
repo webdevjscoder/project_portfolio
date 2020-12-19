@@ -19,7 +19,7 @@ function Work() {
             <div className='projects'>
                 <div className='project-1'>
                     <div className='project-1-image'>
-                        <img src={gamingImage}/>
+                        <img src={gamingImage} alt="man sitting on chair gaming on his pc"/>
                     </div>
                     <div className='project-1-info'>
                         <h3>Game Reviews</h3>
@@ -34,7 +34,7 @@ function Work() {
                 </div>
                 <div className='project-2'>
                     <div className='project-2-image'>
-                        <img src={tennisImage}/>
+                        <img src={tennisImage} alt="wet tennis ball spinning allowing to see water spring off"/>
                     </div>
                     <div className='project-2-info'>
                         <h3>World Sports News</h3>
@@ -49,7 +49,7 @@ function Work() {
                 </div>
                 <div className='project-3'>
                     <div className='project-3-image'>
-                        <img src={carImage}/>
+                        <img src={carImage} alt="white camaro with other vehicles behind"/>
                     </div>
                     <div className='project-3-info'>
                         <h3>Bizarre Car Dealership</h3>
@@ -65,7 +65,7 @@ function Work() {
                 </div>
                 <div className='project-4'>
                     <div className='project-4-image'>
-                        <img src={foodImage}/>
+                        <img src={foodImage} alt="bowl of delicious spicy food"/>
                     </div>
                     <div className='project-4-info'>
                         <h3>Feed Your Cravings</h3>
@@ -81,7 +81,7 @@ function Work() {
                 </div>
                 <div className='project-5'>
                     <div className='project-5-image'>
-                        <img src={macronImage}/>
+                        <img src={macronImage} alt="a variety of macrons behind a glass panel"/>
                     </div>
                     <div className='project-5-info'>
                         <h3>Cece Pastry Creations</h3>
